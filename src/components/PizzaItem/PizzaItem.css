@@ -1,0 +1,32 @@
+.pizza-item-image img{
+    max-width: 250px;
+    width: 100%;
+}
+
+.pizza-item{
+    background-color: #fff9d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 8px solid black;
+    border-radius: 5px;
+}
+
+.pizza-add-btn, .pizza-remove-btn {
+    background-color: #CC444B;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+    max-width: 50px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+}

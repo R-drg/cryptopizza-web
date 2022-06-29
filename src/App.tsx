@@ -35,7 +35,7 @@ function App() {
   };
 
   const MetamaskButton = () => {
-    return <button onClick={connectWalletAction}>Connect metamask</button>;
+    return <button className="metamask-btn" onClick={connectWalletAction}>Connect metamask</button>;
   }
 
   return (
